@@ -2,7 +2,7 @@ setInterval("countDown()", 1000);
 function countDown()
 {
 	var item=document.getElementById("time_p");
-	const newYear=new Date("2023-01-21 0:0:0");
+	const newYear=new Date("2023-01-22 0:0:0");
 	var d=new Date();
 	var temp=newYear.getTime()-d.getTime();
 	var rm_time=new Date(temp);
